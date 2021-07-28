@@ -4,3 +4,6 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     return "Prueba de aplicación web!\n"
+
+
+print("Prueba de aplicación web")
